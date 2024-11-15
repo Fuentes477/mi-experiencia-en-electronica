@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Experiencia En Electronica</title>
+    <style>
+        /* Estilos Básicos */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #f5f5f5; color: #333; }
+
+        /* Encabezado */
+        header { background-color: #333; color: #fff; padding: 20px 0; text-align: center; }
+        header h1 { font-size: 2.5em; transition: color 0.3s ease; }
+        header h1:hover { color: #ff6347; } /* Cambia el color al pasar el ratón */
+
+        /* Navegación */
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 20px; }
+        nav a { text-decoration: none; color: #fff; font-size: 1.1em; position: relative; }
+        nav a::after {
+            content: ""; position: absolute; left: 0; bottom: -5px; width: 100%; height: 2px;
+            background-color: #ff6347; transform: scaleX(0); transition: transform 0.3s ease;
+        }
+        nav a:hover::after { transform: scaleX(1); } /* Animación de subrayado */
+
+        /* Secciones */
+        section { padding: 50px; text-align: center; }
+        .container { max-width: 1200px; margin: auto; }
+        
+        /* Botón Animado */
+        .btn { display: inline-block; padding: 15px 30px; margin-top: 20px; color: #333; font-weight: bold;
+               background-color: #ff6347; border-radius: 5px; transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn:hover { background-color: #e55337; transform: scale(1.05); } /* Efecto al pasar el ratón */
+        .btn:active { transform: scale(0.95); } /* Efecto al hacer clic */
+
+        /* Efecto de Fade-in */
+        .fade-in { opacity: 0; animation: fadeIn 2s forwards; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        /* Animación de fondo con degradado */
+        @keyframes gradient {
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web Profesional</title>
+    <style>
+        /* Estilos básicos y animaciones */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #f5f5f5; color: #333; }
+
+        header, footer { background-color: #333; color: #fff; padding: 20px 0; text-align: center; }
+        header h1 { font-size: 2.5em; transition: color 0.3s ease; }
+        header h1:hover { color: #ff6347; }
+
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 20px; }
+        nav a { text-decoration: none; color: #fff; font-size: 1.1em; position: relative; }
+        nav a::after {
+            content: ""; position: absolute; left: 0; bottom: -5px; width: 100%; height: 2px;
+            background-color: #ff6347; transform: scaleX(0); transition: transform 0.3s ease;
+        }
+        nav a:hover::after { transform: scaleX(1); }
+
+        section { padding: 50px; text-align: center; }
+        .container { max-width: 1200px; margin: auto; }
+        
+        .btn { display: inline-block; padding: 15px 30px; margin-top: 20px; color: #333; font-weight: bold;
+               background-color: #ff6347; border-radius: 5px; transition: background-color 0.3s, transform 0.3s;
+        }
+        .btn:hover { background-color: #e55337; transform: scale(1.05); }
+        .btn:active { transform: scale(0.95); }
+
+        .fade-in { opacity: 0; animation: fadeIn 2s forwards; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .animated-bg { background: linear-gradient(270deg, #ff6347, #ffb347, #ff6347);
+                       background-size: 600% 600%; animation: gradient 10s ease infinite; }
+
+        .card { display: inline-block; width: 300px; margin: 20px; padding: 20px; border-radius: 10px;
+                background-color: #fff; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); transition: transform 0.3s;
+        }
+        .card:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body>
+
+<header class="animated-bg">
+    <h1>Mi Página Web Profesional</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="inicio" class="container fade-in">
+    <h2>Bienvenido</h2>
+    <p>Esta es mi página profesional, donde muestro mis habilidades y proyectos en electrónica y programación.</p>
+    <a href="proyectos.html" class="btn">Ver Proyectos</a>
+</section>
+
+<section id="servicios" class="container">
+    <h2>Servicios</h2>
+    <p>Ofrezco consultoría y desarrollo de proyectos personalizados en electrónica y programación.</p>
+    <a href="contacto.html" class="btn">Contáctame</a>
+</section>
+
+</body>
+</html>
